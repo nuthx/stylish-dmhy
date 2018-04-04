@@ -18,6 +18,10 @@
 
 * 可爱的妹子
 
+## 发布
+
+* https://userstyles.org/styles/133389/theme
+
 ## 食用
 
 * 由于[动漫花园](https://share.dmhy.org/)不定期更新广告，为了保证效果，务必配合[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)使用！
