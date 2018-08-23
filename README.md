@@ -1,6 +1,6 @@
 # 梓喵 动漫花园
 
-**梓喵 动漫花园**是一套基于[Stylish](https://github.com/stylish-userstyles/stylish)的CSS美化模板
+**梓喵 动漫花园**是一套基于[Stylus](https://github.com/stylus/stylus)与[Stylish](https://github.com/stylish-userstyles/stylish)的CSS美化模板
 
 此样式仅适用于[动漫花园官方站](https://share.dmhy.org/)
 
