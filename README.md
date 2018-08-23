@@ -24,7 +24,7 @@
 
 ## 食用
 
-* 由于[动漫花园](https://share.dmhy.org/)不定期更新广告，为了保证效果，务必配合[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)使用！
+* 已禁用所有`ins`与`iframe`样式，同时推荐搭配[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)使用
 
 * 搜索条在网页顶部左侧，点下去即可开始搜索
 
@@ -51,3 +51,5 @@
 * `20171228` 部分样式美化，美化整体代码
 
 * `20180403` 更新广告拦截，更换网站头图，提交Github
+
+* `20180822` 更新广告拦截，更换网站头图
