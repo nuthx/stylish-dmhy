@@ -12,6 +12,10 @@
     background: #EEE;
 }
 
+ins, iframe {
+    display: none !important;
+}
+
 /*头部主体*/
 .bg {
     width: 1300px;
