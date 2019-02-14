@@ -44,6 +44,13 @@ a, p, div, span, tr, th, td, li, input, select, option {
     z-index: 999;
 }
 
+@media all and (max-width: 1600px) {
+.bg > .header {
+    left: 0;
+    width: 100%;
+}
+}
+
 .header > .headerleft {
     width: 200px;
     height: 50px;
@@ -96,6 +103,12 @@ a, p, div, span, tr, th, td, li, input, select, option {
 #login_cm a:hover {
     background: #ddd;
     transition: background 0.3s ease-out;
+}
+
+@media all and (max-width: 1600px) {
+#login_cm a {
+    right: 10px;
+}
 }
 
 /* navigation */
@@ -185,6 +198,12 @@ a, p, div, span, tr, th, td, li, input, select, option {
     z-index:999;
 }
 
+@media all and (max-width: 1600px) {
+.quick_search {
+    width: calc(100% - 320px);
+}
+}
+
 #keyword {
     width: 1090px;
     padding: 6px 12px;
@@ -198,6 +217,12 @@ a, p, div, span, tr, th, td, li, input, select, option {
 #keyword:hover, #keyword:focus {
     background: #ddd;
     transition: background 0.3s ease-out;
+}
+
+@media all and (max-width: 1600px) {
+#keyword {
+    width: calc(100% - 200px);
+}
 }
 
 .formButton {
