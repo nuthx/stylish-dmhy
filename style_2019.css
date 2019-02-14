@@ -466,14 +466,24 @@ body > div > div > div.main > div:nth-child(11) > div:nth-child(1) > a:after {
     width: 8%;
 }
 
+.main > .table > .clear > div {
+    display: block;
+    padding: 70px 0 !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #333;
+    text-align: center;
+    background-color: #fff !important;
+}
+
 .main > .table > .clear > .nav_title {
     display: block;
-    padding: 15px 0 15px 25px;
+    padding: 15px 0 !important;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     color: #aaa;
     text-align: center;
-    background-color: #fcfcfc;
+    background-color: #fcfcfc !important;
 }
 
 .main > .table > .clear > .nav_title > a {
@@ -837,16 +847,4 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     color: #333;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 }
