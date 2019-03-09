@@ -335,40 +335,6 @@ a, p, div, span, tr, th, td, li, input, select, option {
     text-decoration: none;
 }
 
-/* add posts */
-body > div > div > div.main > div:nth-child(11) {
-    display: none;
-}
-
-/*
-body > div > div > div.main > div:nth-child(11)  {
-    position: fixed;
-    top: 55px;
-    left: 1698px;
-    z-index: 999;
-}
-
-body > div > div > div.main > div:nth-child(11) > div:nth-child(1) > a > img {
-    display: none;
-}
-
-body > div > div > div.main > div:nth-child(11) > div:nth-child(1) > a:after {
-    content: "發佈資源";
-    padding: 6px 11px;
-    border: none;
-    border-radius: 8px;
-    color: #fff;
-    letter-spacing: 1px;
-    text-decoration: none;
-    cursor: pointer;
-    background: #304d91;
-}
-
-.main .announce {
-    display: none;
-}
-*/
-
 /* content table */
 .main > .table {
     margin-top: 30px;
@@ -515,8 +481,9 @@ body > div > div > div.main > div:nth-child(11) > div:nth-child(1) > a:after {
     color: #333;
 }
 
-
 /* footer */
+body > div > div > div.main > div:nth-child(10),
+body > div > div > div.main > div:nth-child(13),
 body > div > div > div.main > div:nth-child(14),
 body > div > div > div.main > div:nth-child(15),
 .footer,
@@ -766,8 +733,6 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     border-spacing: 0;
 }
 
-
-
 #comment_recent tbody:after {
     content: "";
     display: block;
@@ -775,8 +740,6 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     width: 262%;
     background: #f5f5f5;
 }
-
-
 #comment_recent td {
     border-bottom: solid 1px #f5f5f5;
     border-right: none !important;
