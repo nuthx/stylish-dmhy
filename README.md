@@ -1,6 +1,6 @@
 # 梓喵 动漫花园 2019
 
-**梓喵 动漫花园**是一套基于[Stylus](https://github.com/stylus/stylus)与[Stylish](https://github.com/stylish-userstyles/stylish)的CSS美化模板
+**梓喵 动漫花园**是一套基于 [Stylus](https://github.com/stylus/stylus)与[Stylish](https://github.com/stylish-userstyles/stylish) 的 CSS 美化模板
 
 此样式仅适用于[动漫花园官方站](https://share.dmhy.org/)
 
@@ -23,14 +23,13 @@
 
 ## 食用
 
-* 理论可在任何浏览器下使用，但仅对Chrome测试
-* 水平分辨率需大于1600像素，暂不支持响应式
-* 为达到去广告效果，推荐搭配[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)使用
-* 在极少数情况下，会出现张贴内容消失的问题，强制刷新即可
+* 理论可在任何 Chromium 内核的浏览器下使用，但仅对 Chrome 测试
+* 水平分辨率建议大于 1600 像素，暂不提供响应式设计
+* 为达到去广告效果，推荐搭配 [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom) 使用
+* 若出现 Post 内容丢失，使用 Shift + F5 强制刷新网页即可
 
 ## 计划
 
-* 萌元素
 * 登录页面
 * 登陆后评论页面
 * 分类颜色
@@ -47,9 +46,10 @@
 * `20170828` 更新广告拦截
 * `20171113` 更新广告拦截
 * `20171228` 部分样式美化，美化整体代码
-* `20180403` 更新广告拦截，更换网站头图，提交Github
+* `20180403` 更新广告拦截，更换网站头图，提交 Github
 * `20180822` 更新广告拦截，更换网站头图
 * `20190122` 全新样式启用！
 * `20190125` 修复下载链接，优化评论区块
 * `20190214` 修复导航错位，更换网站徽标
 * `20190308` 网页布局修复
+* `20190308` 更新广告拦截，网页布局修复，添加动漫元素
