@@ -1,6 +1,9 @@
 @-moz-document url-prefix("https://share.dmhy.org/") {
 /* ad */
-.ad {
+.ad,
+#bebiv3_ad,
+#\31 280_ad,
+#\31 280_adv {
     display: none;
 }
 
@@ -26,6 +29,17 @@ body::before {
     min-width: 100%;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.bg::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 170px;
+    height: 300px;
+    background: url(http://nuthx.com/stylish/illust_70096799_p0.png);
+    z-index: -1;
 }
 
 a, p, div, span, tr, th, td, li, input, select, option {
@@ -54,7 +68,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
 .header > .headerleft {
     width: 200px;
     height: 50px;
-    background: url(http://nuthx.com/stylish/logo.png);
+    background: url(http://nuthx.com/stylish/dmhy.png);
 }
 
 .header > .headerleft > a {
@@ -121,7 +135,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
     width: 1600px;
     margin: 51px auto 30px auto;
     padding: 0;
-    background: #fcfcfc;
+    background: #fcfcfc99;
 }
 
 /* all date */
@@ -336,6 +350,10 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 
 /* content table */
+.table {
+    background: #fff7;
+}
+
 .main > .table {
     margin-top: 30px;
     border: 1px solid #ccc;
@@ -481,6 +499,11 @@ a, p, div, span, tr, th, td, li, input, select, option {
     color: #333;
 }
 
+/* content table font fix */
+.main > .table > .clear > table > tbody > tr > td > a > b > font {
+    font-weight: normal !important;
+}
+
 /* footer */
 body > div > div > div.main > div:nth-child(10),
 body > div > div > div.main > div:nth-child(13),
@@ -531,7 +554,6 @@ div.topic-title.box.ui-corner-all > h3 {
 
 div.topic-title.box.ui-corner-all > .resource-info {
     float: left;
-    margin: 0;
     text-shadow: none;
 }
 
@@ -687,7 +709,7 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     border: 1px solid #ccc;
     padding: 0;
     border-radius: 8px;
-    background: #fff;
+    background: #fff7;
 }
 
 .topic-main .topic-nfo {
