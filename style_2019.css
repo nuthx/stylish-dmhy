@@ -1,10 +1,10 @@
 @-moz-document url-prefix("https://share.dmhy.org/") {
 /* ad */
 .ad,
+#\31 280_adv,
 #bebiv3_ad,
-#\31 280_ad,
-#\31 280_adv {
-    display: none;
+.kiwi-ad-wrapper-950x80 {
+    display: none !important;
 }
 
 /* body */
@@ -31,17 +31,6 @@ body::before {
     margin: 0 auto;
 }
 
-.bg::before {
-    content: "";
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 170px;
-    height: 300px;
-    background: url(http://nuthx.com/stylish/illust_70096799_p0.png);
-    z-index: -1;
-}
-
 a, p, div, span, tr, th, td, li, input, select, option {
     font-size: 14px;
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -65,17 +54,22 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 }
 
-.header > .headerleft {
-    width: 200px;
-    height: 50px;
-    background: url(http://nuthx.com/stylish/dmhy.png);
+.header > .headerleft:after {
+    content: "動漫花園資源網";
+    position: fixed;
+    margin: -30px 18px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #38F;
+    z-index: -1;
 }
 
 .header > .headerleft > a {
-    display: inline-block;
-    width: 140px;
-    height: 50px;
-    margin-left: 30px;
+    display: block;
+    width: 160px;
+    height: 25px;
+    margin: 13px 0 0 16px;
 }
 
 .header > .headerleft > a > img {
@@ -135,7 +129,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
     width: 1600px;
     margin: 51px auto 30px auto;
     padding: 0;
-    background: #fcfcfc99;
+    background: #fcfcfc;
 }
 
 /* all date */
@@ -248,7 +242,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
     letter-spacing: 1px;
     text-decoration: none;
     cursor: pointer;
-    background: #4285F4;
+    background: #38F;
     transition: background 0.3s ease-out;
 }
 
@@ -350,10 +344,6 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 
 /* content table */
-.table {
-    background: #fff7;
-}
-
 .main > .table {
     margin-top: 30px;
     border: 1px solid #ccc;
@@ -431,12 +421,12 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 
 #topic_list .keyword {
-    color: #ff5757;
+    color: #F26;
     background: rgba(0, 0, 0, 0);
 }
 
 .download-arrow {
-    color: #4285F4 !important;
+    color: #38F !important;
     font-size: 14px;
     margin: 0;
     padding: 2px 6px 0 8px;
@@ -499,16 +489,11 @@ a, p, div, span, tr, th, td, li, input, select, option {
     color: #333;
 }
 
-/* content table font fix */
-.main > .table > .clear > table > tbody > tr > td > a > b > font {
-    font-weight: normal !important;
-}
-
 /* footer */
-body > div > div > div.main > div:nth-child(10),
+body > div > div > div.main > div:nth-child(9),
+body > div > div > div.main > div:nth-child(12),
 body > div > div > div.main > div:nth-child(13),
 body > div > div > div.main > div:nth-child(14),
-body > div > div > div.main > div:nth-child(15),
 .footer,
 body > div > div > div:nth-child(4),
 body > div > div > div:nth-child(5),
@@ -563,6 +548,10 @@ div.topic-title.box.ui-corner-all > .resource-info > ul {
 
 div.topic-title.box.ui-corner-all > .resource-info > ul > li {
     margin: 8px 0;
+}
+
+div.topic-title.box.ui-corner-all > .resource-info > ul > li:nth-child(4) > a {
+    color: #38F;
 }
 
 div.topic-title.box.ui-corner-all > .resource-info > ul > li:nth-child(3),
@@ -709,7 +698,7 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     border: 1px solid #ccc;
     padding: 0;
     border-radius: 8px;
-    background: #fff7;
+    background: #fff;
 }
 
 .topic-main .topic-nfo {
@@ -856,5 +845,9 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     padding: 35px 0 !important;
     color: #333;
     text-align: center;
+}
+
+#comment_add tr td:nth-child(1) a {
+    color: #38F;
 }
 }
