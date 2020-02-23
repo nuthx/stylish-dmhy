@@ -54,6 +54,10 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 }
 
+.header > .headerleft {
+    height: auto;
+}
+
 .header > .headerleft:after {
     content: "動漫花園資源網";
     position: fixed;
@@ -491,7 +495,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
 
 /* footer */
 body > div > div > div.main > div:nth-child(9),
-body > div > div > div.main > div:nth-child(12),
+body > div > div > div.main > div:nth-child(10),
 body > div > div > div.main > div:nth-child(13),
 body > div > div > div.main > div:nth-child(14),
 .footer,
