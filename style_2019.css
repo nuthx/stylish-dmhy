@@ -348,7 +348,7 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 
 /* content table */
-.main > .table {
+.main >div > .table {
     margin-top: 30px;
     border: 1px solid #ccc;
     padding: 0;
@@ -494,14 +494,13 @@ a, p, div, span, tr, th, td, li, input, select, option {
 }
 
 /* footer */
-body > div > div > div.main > div:nth-child(9),
-body > div > div > div.main > div:nth-child(10),
-body > div > div > div.main > div:nth-child(13),
-body > div > div > div.main > div:nth-child(14),
 .footer,
-body > div > div > div:nth-child(4),
-body > div > div > div:nth-child(5),
-body > div > div > div:nth-child(6) {
+div.main > div:nth-child(13),
+div.main > div:nth-child(12),
+div.main > div:nth-child(11),
+div.main > div:nth-child(9) > div:nth-child(6),
+div.main > div:nth-child(9) > div:nth-child(5),
+div.main > div:nth-child(9) > div:nth-child(2) {
     display: none;
 }
 }
