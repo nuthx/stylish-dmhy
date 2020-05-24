@@ -520,7 +520,7 @@ div.topics_bk.ui-corner-all {
 }
 
 /* intro */
-div.topic-title.box.ui-corner-all {
+.topic-main > .topic-title {
     position: absolute;
     top: 140px;
     width: 1598px;
@@ -532,34 +532,39 @@ div.topic-title.box.ui-corner-all {
     height: 338px;
 }
 
-div.topic-title.box.ui-corner-all > h3 {
+.topic-main > .topic-title > h3 {
     margin-top: -60px;
+    max-width: 1518px;
     padding: 0 40px;
     border: none;
     font-size: 18px;
     font-weight: 400;
+    text-align: left;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
 }
 
-div.topic-title.box.ui-corner-all > .resource-info {
+.topic-main > .topic-title > .resource-info {
     float: left;
     text-shadow: none;
 }
 
-div.topic-title.box.ui-corner-all > .resource-info > ul {
+.topic-main > .topic-title > .resource-info > ul {
     margin: 20px 40px;
 }
 
-div.topic-title.box.ui-corner-all > .resource-info > ul > li {
+.topic-main > .topic-title > .resource-info > ul > li {
     margin: 8px 0;
 }
 
-div.topic-title.box.ui-corner-all > .resource-info > ul > li:nth-child(4) > a {
+.topic-main > .topic-title > .resource-info > ul > li:nth-child(4) > a {
     color: #38F;
 }
 
-div.topic-title.box.ui-corner-all > .resource-info > ul > li:nth-child(3),
-div.topic-title.box.ui-corner-all > .resource-info > ul > li:nth-child(6),
-div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
+.topic-main > .topic-title > .resource-info > ul > li:nth-child(3),
+.topic-main > .topic-title > .resource-info > ul > li:nth-child(6),
+.topic-main > .topic-title > .resource-info > ul > li.share {
     display: none;
 }
 
@@ -589,6 +594,7 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
 #tabs-1 {
     padding: 0;
     margin-top: 20px;
+    text-align: left;
 }
 
 #tabs-1 > p {
@@ -702,6 +708,10 @@ div.topic-title.box.ui-corner-all > .resource-info > ul > li.share {
     padding: 0;
     border-radius: 8px;
     background: #fff;
+}
+
+.topic-main .info {
+    text-align: left;
 }
 
 .topic-main .topic-nfo {
